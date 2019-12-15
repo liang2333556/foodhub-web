@@ -2,7 +2,7 @@
   <div class="hero">
     <h1 class="vue-title">Welcome to FoodHub!</h1>
     <h2 style="color: antiquewhite">Share the website here!</h2>
-    <social-sharing url="https://http:localhost:8080/"
+    <social-sharing url="http://foodhub.surge.sh/#/"
                     title="Welcome to invite leon's website"
                     description="Find more foods and cooking ideas here@_@"
                     inline-template>

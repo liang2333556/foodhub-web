@@ -80,7 +80,7 @@
                     if (valid) {
                         this.$axios({
                             method: 'post',
-                            url: 'http://localhost:3000/api/signup',
+                            url: 'http://foodhub-api-staging.herokuapp.com/api/signup',
 
                             data: {
                                 'name': this.ruleForm2.account,

@@ -1,4 +1,5 @@
 <template>
+  <div id="app1">
     <div class="index-board-list">
       <div
         class="index-board-item"
@@ -17,6 +18,7 @@
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -84,9 +86,13 @@ export default {
 </script>
 
 <style>
+  #app1 {
+    width: 80%;
+    margin: 0 auto;
+
+  }
   .index-board-list{
-    position:relative;
-    margin-left: 300px;
+    margin: 0 auto;
   }
 
   .index-board-item-inner{
@@ -106,7 +112,7 @@ export default {
   .index-left-block h3 {
     padding: 0 15px 5px 15px;
     font-weight: bold;
-    color: #222;
+    color:#222;
   }
   .index-left-block ul {
     padding: 10px 15px;
@@ -120,11 +126,11 @@ export default {
   }
   .index-board-item {
     float: left;
-    width: 35%;
+    width: 480%;
     background:#35495e;
     box-shadow: #ddd;
     padding: 2%;
-    margin-right: 2%;
+    margin-right: 10%;
     margin-bottom: 10px;
     border-radius: 20px 20px 20px 20px;
     text-align-all: left;

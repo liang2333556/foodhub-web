@@ -1,4 +1,5 @@
 <template>
+  <div id="app1">
   <div class="index-board-list">
     <img src="../assets/200.gif"  style="position: fixed; left:1200px"/>
     <div
@@ -21,6 +22,7 @@
 
       </div>
     </div>
+  </div>
   </div>
 </template>
 <script>
@@ -85,6 +87,10 @@ import comment from "./comment";
 </script>
 
 <style>
+  #app1 {
+    width: 90%;
+    margin: 0 auto;
+  }
   .text1{
     padding-left: 80%;
   }
@@ -126,15 +132,17 @@ import comment from "./comment";
   .index-board-item {
     float: left;
     text-align: left;
-    width: 60%;
+    width: 9000%;
     background:silver;
     box-shadow: #ddd;
     padding:5%;
+    margin: 0 auto;
     margin-left:0px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     border-radius: 20px 20px 20px 20px;
   }
   .index-board-item-inner {
+    width:8000%;
     min-height: 125px;
     padding-left: 120px;
     line-height: 1.6;
